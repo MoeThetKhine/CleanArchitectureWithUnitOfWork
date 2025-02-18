@@ -13,6 +13,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet8.CleanArchitectureWithUnitOfWork.Infrastructure", "DotNet8.CleanArchitectureWithUnitOfWork.Infrastructure\DotNet8.CleanArchitectureWithUnitOfWork.Infrastructure.csproj", "{F16B3338-F308-4A53-9981-9E339EFF5B8E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{6A98D058-1AD0-4380-9F29-1430A1BAE7AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet8.CleanArchitectureWithUnitOfWork.Api", "DotNet8.CleanArchitectureWithUnitOfWork.Api\DotNet8.CleanArchitectureWithUnitOfWork.Api.csproj", "{7C5461AF-244C-4025-8987-70CDD3D18AE8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +35,10 @@ Global
 		{F16B3338-F308-4A53-9981-9E339EFF5B8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F16B3338-F308-4A53-9981-9E339EFF5B8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F16B3338-F308-4A53-9981-9E339EFF5B8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C5461AF-244C-4025-8987-70CDD3D18AE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C5461AF-244C-4025-8987-70CDD3D18AE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C5461AF-244C-4025-8987-70CDD3D18AE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C5461AF-244C-4025-8987-70CDD3D18AE8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,5 +47,6 @@ Global
 		{7632E654-AD98-4828-B574-7C933E4B6737} = {3F213A70-5E19-4652-B5DC-912D4A22E76F}
 		{0720C1CC-271D-459A-84CF-B03963A84EF1} = {3F213A70-5E19-4652-B5DC-912D4A22E76F}
 		{F16B3338-F308-4A53-9981-9E339EFF5B8E} = {E379722D-D3A9-4528-9AEA-B7667E49F6CF}
+		{7C5461AF-244C-4025-8987-70CDD3D18AE8} = {6A98D058-1AD0-4380-9F29-1430A1BAE7AD}
 	EndGlobalSection
 EndGlobal
