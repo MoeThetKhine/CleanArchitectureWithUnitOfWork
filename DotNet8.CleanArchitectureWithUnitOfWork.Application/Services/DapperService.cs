@@ -1,6 +1,5 @@
-﻿namespace DotNet8.CleanArchitectureWithUnitOfWork.Application.Services
+﻿namespace DotNet8.CleanArchitectureWithUnitOfWork.Application.Services;
+
+internal class DapperService
 {
-	internal class DapperService
-	{
-	}
 }
