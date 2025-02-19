@@ -1,5 +1,7 @@
 ﻿namespace DotNet8.CleanArchitectureWithUnitOfWork.Domain.Enums;
 
+#region EnumStatusCode
+
 public enum EnumStatusCode
 {
 	Success = 200,
@@ -10,3 +12,5 @@ public enum EnumStatusCode
 	Duplicate = 409,
 	InternalServerError = 500
 }
+
+#endregion
