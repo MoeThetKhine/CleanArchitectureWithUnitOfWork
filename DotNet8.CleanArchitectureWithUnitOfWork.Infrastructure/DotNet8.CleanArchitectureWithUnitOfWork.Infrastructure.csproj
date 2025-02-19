@@ -19,4 +19,8 @@
 		</PackageReference>
 	</ItemGroup>
 
+	<ItemGroup>
+	  <ProjectReference Include="..\DotNet8.CleanArchitectureWithUnitOfWork.Domain\DotNet8.CleanArchitectureWithUnitOfWork.Domain.csproj" />
+	</ItemGroup>
+
 </Project>
