@@ -1,6 +1,5 @@
-﻿namespace DotNet8.CleanArchitectureWithUnitOfWork.Domain.Enums
+﻿namespace DotNet8.CleanArchitectureWithUnitOfWork.Domain.Enums;
+
+internal class EnumStatusCode
 {
-	internal class EnumStatusCode
-	{
-	}
 }
