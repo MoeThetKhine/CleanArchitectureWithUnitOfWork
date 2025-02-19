@@ -1,6 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-
-namespace DotNet8.CleanArchitectureWithUnitOfWork.Infrastructure.AppDbContextModels;
+﻿namespace DotNet8.CleanArchitectureWithUnitOfWork.Infrastructure.AppDbContextModels;
 
 public partial class AppDbContext : DbContext
 {
