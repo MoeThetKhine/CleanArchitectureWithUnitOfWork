@@ -1,5 +1,5 @@
 ﻿namespace DotNet8.CleanArchitectureWithUnitOfWork.Infrastructure.Entities;
 
-internal class Tbl_Blog
+public class Tbl_Blog
 {
 }
