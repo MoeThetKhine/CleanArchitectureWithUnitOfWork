@@ -1,6 +1,5 @@
-﻿namespace DotNet8.CleanArchitectureWithUnitOfWork.Infrastructure.Repositories
+﻿namespace DotNet8.CleanArchitectureWithUnitOfWork.Infrastructure.Repositories;
+
+internal class BlogRepository
 {
-	internal class BlogRepository
-	{
-	}
 }
