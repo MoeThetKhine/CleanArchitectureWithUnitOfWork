@@ -1,6 +1,5 @@
-﻿namespace DotNet8.CleanArchitectureWithUnitOfWork.Domain
+﻿namespace DotNet8.CleanArchitectureWithUnitOfWork.Domain;
+
+internal class Result
 {
-	internal class Result
-	{
-	}
 }
