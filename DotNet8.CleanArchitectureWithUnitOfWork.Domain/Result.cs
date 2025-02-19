@@ -1,6 +1,4 @@
-﻿using System.Threading.Tasks;
-
-namespace DotNet8.CleanArchitectureWithUnitOfWork.Domain
+﻿namespace DotNet8.CleanArchitectureWithUnitOfWork.Domain
 {
 	internal class Result
 	{
