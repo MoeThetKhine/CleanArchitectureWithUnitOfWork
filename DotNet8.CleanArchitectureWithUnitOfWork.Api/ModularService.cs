@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using DotNet8.CleanArchitectureWithUnitOfWork.Domain.Interfaces;
+using DotNet8.CleanArchitectureWithUnitOfWork.Infrastructure.Repositories;
+using Microsoft.EntityFrameworkCore;
 
 namespace DotNet8.CleanArchitectureWithUnitOfWork.Api;
 
@@ -16,4 +18,11 @@ public static class ModularService
 
 		return services;
 	}
+
+	private static IServiceCollection AddUnitOfWorkService(this IServiceCollection services)
+	{
+		services.AddScoped<IUnitOfWork, UnitOfWork>();
+		return services;
+	}
+
 }
