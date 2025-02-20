@@ -1,7 +1,5 @@
-﻿using DotNet8.CleanArchitectureWithUnitOfWork.Domain.Interfaces;
+﻿namespace DotNet8.CleanArchitectureWithUnitOfWork.Infrastructure.Repositories;
 
-namespace DotNet8.CleanArchitectureWithUnitOfWork.Infrastructure.Repositories;
-
-public class BlogRepository : IBlogRepository
+public class BlogRepository
 {
 }
