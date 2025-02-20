@@ -1,5 +1,5 @@
 ﻿namespace DotNet8.CleanArchitectureWithUnitOfWork.Infrastructure.Repositories;
 
-public class IUnitOfWork
+public class UnitOfWork
 {
 }
