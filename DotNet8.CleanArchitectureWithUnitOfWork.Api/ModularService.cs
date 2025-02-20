@@ -32,4 +32,16 @@ public static class ModularService
 		return services;
 	}
 
+	private static IServiceCollection AddJsonService(this IServiceCollection services)
+	{
+		services
+			.AddControllers()
+			.AddJsonOptions(opt =>
+			{
+				opt.JsonSerializerOptions.PropertyNamingPolicy = null;
+			});
+
+		return services;
+	}
+
 }
