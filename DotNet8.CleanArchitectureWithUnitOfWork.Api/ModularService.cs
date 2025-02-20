@@ -22,6 +22,8 @@ public static class ModularService
 
 	#endregion
 
+	#region AddDbContextService
+
 	private static IServiceCollection AddDbContextService(this IServiceCollection services, WebApplicationBuilder builder)
 	{
 		builder.Services.AddDbContext<AppDbContext>(
@@ -34,6 +36,8 @@ public static class ModularService
 
 		return services;
 	}
+
+	#endregion
 
 	private static IServiceCollection AddUnitOfWorkService(this IServiceCollection services)
 	{
