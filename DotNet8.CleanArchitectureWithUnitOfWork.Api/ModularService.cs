@@ -6,6 +6,18 @@ namespace DotNet8.CleanArchitectureWithUnitOfWork.Api;
 
 public static class ModularService
 {
+
+	public static IServiceCollection AddFeatures(this IServiceCollection services, WebApplicationBuilder builder)
+	{
+		services
+			.AddDbContextService(builder)
+			.AddRepositoryService()
+			.AddUnitOfWorkService()
+			.AddJsonService();
+
+		return services;
+	}
+
 	private static IServiceCollection AddDbContextService(this IServiceCollection services, WebApplicationBuilder builder)
 	{
 		builder.Services.AddDbContext<AppDbContext>(
