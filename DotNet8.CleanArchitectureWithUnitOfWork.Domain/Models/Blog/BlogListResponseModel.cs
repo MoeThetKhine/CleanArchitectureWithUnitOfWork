@@ -2,4 +2,5 @@
 
 public class BlogListResponseModel
 {
+	public List<BlogModel> Blogs { get; set; }
 }
