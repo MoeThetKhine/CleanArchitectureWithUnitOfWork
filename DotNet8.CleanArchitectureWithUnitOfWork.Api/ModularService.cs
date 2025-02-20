@@ -39,11 +39,15 @@ public static class ModularService
 
 	#endregion
 
+	#region AddUnitOfWorkService
+
 	private static IServiceCollection AddUnitOfWorkService(this IServiceCollection services)
 	{
 		services.AddScoped<IUnitOfWork, UnitOfWork>();
 		return services;
 	}
+
+	#endregion
 
 	private static IServiceCollection AddRepositoryService(this IServiceCollection services)
 	{
