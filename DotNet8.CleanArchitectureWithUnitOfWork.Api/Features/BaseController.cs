@@ -11,4 +11,9 @@ public class BaseController : ControllerBase
 	{
 		return Ok(JsonConvert.SerializeObject(obj));
 	}
+
+	protected IActionResult InternalServerError(Exception ex)
+	{
+		return StatusCode(500, ex.Message);
+	}
 }
