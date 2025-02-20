@@ -1,7 +1,4 @@
-﻿using DotNet8.CleanArchitectureWithUnitOfWork.Domain.Models.Blog;
-using DotNet8.CleanArchitectureWithUnitOfWork.Infrastructure.AppDbContextModels;
-
-namespace DotNet8.CleanArchitectureWithUnitOfWork.Api;
+﻿namespace DotNet8.CleanArchitectureWithUnitOfWork.Api;
 
 public static class ChangeModel
 {

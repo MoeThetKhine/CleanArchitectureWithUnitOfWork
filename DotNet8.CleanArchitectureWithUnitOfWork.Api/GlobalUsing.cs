@@ -1,1 +1,2 @@
-﻿
+﻿global using DotNet8.CleanArchitectureWithUnitOfWork.Domain.Models.Blog;
+global using DotNet8.CleanArchitectureWithUnitOfWork.Infrastructure.AppDbContextModels;
