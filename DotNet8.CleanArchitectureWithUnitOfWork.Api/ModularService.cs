@@ -1,8 +1,4 @@
-﻿using DotNet8.CleanArchitectureWithUnitOfWork.Domain.Interfaces;
-using DotNet8.CleanArchitectureWithUnitOfWork.Infrastructure.Repositories;
-using Microsoft.EntityFrameworkCore;
-
-namespace DotNet8.CleanArchitectureWithUnitOfWork.Api;
+﻿namespace DotNet8.CleanArchitectureWithUnitOfWork.Api;
 
 public static class ModularService
 {
