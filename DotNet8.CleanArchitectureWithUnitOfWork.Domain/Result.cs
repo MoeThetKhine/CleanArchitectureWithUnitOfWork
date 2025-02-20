@@ -53,6 +53,8 @@ public class Result<T>
 
 	#endregion
 
+	#region FailureResult
+
 	public static Result<T> FailureResult(Exception ex, EnumStatusCode statusCode = EnumStatusCode.InternalServerError)
 	{
 		return new Result<T>
@@ -62,6 +64,8 @@ public class Result<T>
 			StatusCode = statusCode,
 		};
 	}
+
+	#endregion
 
 	public static Result<T> ExecuteResult(int result, EnumStatusCode successStatusCode = EnumStatusCode.Success , EnumStatusCode failureStatusCode = EnumStatusCode.BadRequest)
 	{
