@@ -50,4 +50,9 @@ public class Result<T>
 			StatusCode = statusCode,
 		};
 	}
+
+	public static Result<T> ExecuteResult(int result, EnumStatusCode successStatusCode = EnumStatusCode.Success , EnumStatusCode failureStatusCode = EnumStatusCode.BadRequest)
+	{
+		return result > 0 ? Result<T>.SuccessResult(statusCode: successStatusCode) : Result<T>.FailureResult(statusCode: failureStatusCode);
+	}
 }
