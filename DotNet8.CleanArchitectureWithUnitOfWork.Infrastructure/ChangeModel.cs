@@ -5,6 +5,8 @@ namespace DotNet8.CleanArchitectureWithUnitOfWork.Infrastructure;
 
 public static class ChangeModel
 {
+	#region Change
+
 	public static BlogModel Change(this TblBlog dataModel)
 	{
 		return new BlogModel
@@ -15,4 +17,6 @@ public static class ChangeModel
 			BlogContent = dataModel.BlogContent
 		};
 	}
+
+	#endregion
 }
