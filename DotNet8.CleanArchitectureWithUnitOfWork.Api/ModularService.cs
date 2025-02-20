@@ -25,4 +25,11 @@ public static class ModularService
 		return services;
 	}
 
+	private static IServiceCollection AddRepositoryService(this IServiceCollection services)
+	{
+		services
+			.AddScoped<IBlogRepository, BlogRepository>();
+		return services;
+	}
+
 }
