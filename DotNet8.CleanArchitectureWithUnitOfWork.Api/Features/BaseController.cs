@@ -17,8 +17,12 @@ public class BaseController : ControllerBase
 
 	#endregion
 
+	#region InternalServerError
+
 	protected IActionResult InternalServerError(Exception ex)
 	{
 		return StatusCode(500, ex.Message);
 	}
+
+	#endregion
 }
