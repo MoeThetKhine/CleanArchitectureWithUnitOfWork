@@ -7,6 +7,8 @@ namespace DotNet8.CleanArchitectureWithUnitOfWork.Api;
 public static class ModularService
 {
 
+	#region AddFeatures
+
 	public static IServiceCollection AddFeatures(this IServiceCollection services, WebApplicationBuilder builder)
 	{
 		services
@@ -17,6 +19,8 @@ public static class ModularService
 
 		return services;
 	}
+
+	#endregion
 
 	private static IServiceCollection AddDbContextService(this IServiceCollection services, WebApplicationBuilder builder)
 	{
