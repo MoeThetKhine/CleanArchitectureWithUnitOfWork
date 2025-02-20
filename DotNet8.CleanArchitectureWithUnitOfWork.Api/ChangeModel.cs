@@ -5,6 +5,9 @@ namespace DotNet8.CleanArchitectureWithUnitOfWork.Api;
 
 public static class ChangeModel
 {
+
+	#region BlogModel Change
+
 	public static BlogModel Change(this TblBlog dataModel)
 	{
 		return new BlogModel
@@ -15,4 +18,7 @@ public static class ChangeModel
 			BlogContent = dataModel.BlogContent,
 		};
 	}
+
+	#endregion
+
 }
