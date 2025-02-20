@@ -12,10 +12,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\DotNet8.CleanArchitectureWithUnitOfWork.Domain\DotNet8.CleanArchitectureWithUnitOfWork.Domain.csproj" />
     <ProjectReference Include="..\DotNet8.CleanArchitectureWithUnitOfWork.Infrastructure\DotNet8.CleanArchitectureWithUnitOfWork.Infrastructure.csproj" />
   </ItemGroup>
