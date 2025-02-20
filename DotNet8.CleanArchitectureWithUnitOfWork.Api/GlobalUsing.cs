@@ -3,3 +3,5 @@ global using DotNet8.CleanArchitectureWithUnitOfWork.Infrastructure.AppDbContext
 global using DotNet8.CleanArchitectureWithUnitOfWork.Domain.Interfaces;
 global using DotNet8.CleanArchitectureWithUnitOfWork.Infrastructure.Repositories;
 global using Microsoft.EntityFrameworkCore;
+global using Microsoft.AspNetCore.Mvc;
+global using Newtonsoft.Json;
