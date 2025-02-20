@@ -1,6 +1,5 @@
-﻿namespace DotNet8.CleanArchitectureWithUnitOfWork.Api
+﻿namespace DotNet8.CleanArchitectureWithUnitOfWork.Api;
+
+public class ModularService
 {
-	public class ModularService
-	{
-	}
 }
