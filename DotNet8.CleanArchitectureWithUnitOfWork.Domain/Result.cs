@@ -1,6 +1,4 @@
-﻿using DotNet8.CleanArchitectureWithUnitOfWork.Domain.Enums;
-
-namespace DotNet8.CleanArchitectureWithUnitOfWork.Domain;
+﻿namespace DotNet8.CleanArchitectureWithUnitOfWork.Domain;
 
 #region Result
 
