@@ -60,6 +60,8 @@ public static class ModularService
 
 	#endregion
 
+	#region AddJsonService
+
 	private static IServiceCollection AddJsonService(this IServiceCollection services)
 	{
 		services
@@ -71,5 +73,7 @@ public static class ModularService
 
 		return services;
 	}
+
+	#endregion
 
 }
