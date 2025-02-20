@@ -39,6 +39,8 @@ public class Result<T>
 
 	#endregion
 
+	#region FailureResult
+
 	public static Result<T> FailureResult(string message = "Fail.", EnumStatusCode statusCode = EnumStatusCode.BadRequest)
 	{
 		return new Result<T>
@@ -48,6 +50,8 @@ public class Result<T>
 			StatusCode = statusCode,
 		};
 	}
+
+	#endregion
 
 	public static Result<T> FailureResult(Exception ex, EnumStatusCode statusCode = EnumStatusCode.InternalServerError)
 	{
