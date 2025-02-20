@@ -30,4 +30,14 @@ public class Result<T>
 			Data = data
 		};
 	} 
+
+	public static Result<T> FailureResult(string message = "Fail.", EnumStatusCode statusCode = EnumStatusCode.BadRequest)
+	{
+		return new Result<T>
+		{
+			IsSuccess = false,
+			Message = message,
+			StatusCode = statusCode,
+		};
+	}
 }
