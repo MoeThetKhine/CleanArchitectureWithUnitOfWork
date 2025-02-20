@@ -9,4 +9,14 @@ public class Result<T>
 	public bool IsError { get { return !IsSuccess; } }
 	public string Message { get; set; }
 	public EnumStatusCode StatusCode { get; set; }
+
+	public static Result<T> SuccessResult(string message = "Success.", EnumStatusCode statusCode = EnumStatusCode.Success)
+	{
+		return new Result<T>
+		{
+			IsSuccess = true,
+			Message = message,
+			StatusCode = statusCode
+		};
+	}
 }
