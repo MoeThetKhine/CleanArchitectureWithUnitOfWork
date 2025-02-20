@@ -49,12 +49,16 @@ public static class ModularService
 
 	#endregion
 
+	#region AddRepositoryService
+
 	private static IServiceCollection AddRepositoryService(this IServiceCollection services)
 	{
 		services
 			.AddScoped<IBlogRepository, BlogRepository>();
 		return services;
 	}
+
+	#endregion
 
 	private static IServiceCollection AddJsonService(this IServiceCollection services)
 	{
