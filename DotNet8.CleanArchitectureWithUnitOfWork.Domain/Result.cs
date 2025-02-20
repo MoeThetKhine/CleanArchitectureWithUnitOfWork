@@ -40,4 +40,14 @@ public class Result<T>
 			StatusCode = statusCode,
 		};
 	}
+
+	public static Result<T> FailureResult(Exception ex, EnumStatusCode statusCode = EnumStatusCode.InternalServerError)
+	{
+		return new Result<T>
+		{
+			IsSuccess = false,
+			Message = ex.Message,
+			StatusCode = statusCode,
+		};
+	}
 }
