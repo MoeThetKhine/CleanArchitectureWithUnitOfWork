@@ -1,5 +1,7 @@
-﻿namespace DotNet8.CleanArchitectureWithUnitOfWork.Infrastructure.Repositories;
+﻿using DotNet8.CleanArchitectureWithUnitOfWork.Domain.Interfaces;
 
-public class UnitOfWork
+namespace DotNet8.CleanArchitectureWithUnitOfWork.Infrastructure.Repositories;
+
+public class UnitOfWork : IUnitOfWork
 {
 }
