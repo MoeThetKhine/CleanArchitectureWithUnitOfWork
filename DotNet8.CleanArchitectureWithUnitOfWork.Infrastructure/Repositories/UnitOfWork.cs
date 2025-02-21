@@ -1,6 +1,4 @@
-﻿using Microsoft.Extensions.DependencyInjection;
-
-namespace DotNet8.CleanArchitectureWithUnitOfWork.Infrastructure.Repositories;
+﻿namespace DotNet8.CleanArchitectureWithUnitOfWork.Infrastructure.Repositories;
 
 public class UnitOfWork : IUnitOfWork
 {
