@@ -1,5 +1,3 @@
-using DotNet8.CleanArchitectureWithUnitOfWork.Api;
-
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();

@@ -5,3 +5,4 @@ global using DotNet8.CleanArchitectureWithUnitOfWork.Infrastructure.Repositories
 global using Microsoft.EntityFrameworkCore;
 global using Microsoft.AspNetCore.Mvc;
 global using Newtonsoft.Json;
+global using DotNet8.CleanArchitectureWithUnitOfWork.Api;
