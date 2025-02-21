@@ -13,6 +13,8 @@ public class BlogController : BaseController
 		_unitOfWork = unitOfWork;
 	}
 
+	#region GetBlogListAsync
+
 	[HttpGet]
 	public async Task<IActionResult> GetBlogListAsync()
 	{
@@ -26,4 +28,7 @@ public class BlogController : BaseController
 			return InternalServerError(ex);
 		}
 	}
+
+	#endregion
+
 }
