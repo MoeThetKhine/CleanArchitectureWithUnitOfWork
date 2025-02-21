@@ -13,6 +13,8 @@ public class BlogRepository : IBlogRepository
 		_context = context;
 	}
 
+	#region GetBlogListAsync
+
 	public async Task<Result<BlogListResponseModel>> GetBlogListAsync()
 	{
 		Result<BlogListResponseModel> result;
@@ -33,4 +35,6 @@ public class BlogRepository : IBlogRepository
 		}
 		return result;
 	}
+
+	#endregion
 }
