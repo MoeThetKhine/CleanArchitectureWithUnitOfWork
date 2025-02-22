@@ -9,13 +9,14 @@ public class BlogRepository : IBlogRepository
 		_context = context;
 	}
 
+	#region GetBlogByIdAsync
+
 	public async Task<Result<BlogResponseModel>> GetBlogByIdAsync(int blogId)
 	{
 		Result<BlogResponseModel> result;
 
 		try
 		{
-			
 			var blog = await _context.TblBlogs
 				.FirstOrDefaultAsync(x => x.BlogId == blogId);
 
@@ -42,6 +43,8 @@ public class BlogRepository : IBlogRepository
 
 		return result;
 	}
+
+	#endregion
 
 
 	#region GetBlogListAsync
