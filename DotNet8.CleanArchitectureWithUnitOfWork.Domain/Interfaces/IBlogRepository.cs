@@ -5,6 +5,7 @@
 public interface IBlogRepository
 {
 	Task<Result<BlogListResponseModel>> GetBlogListAsync();
+	Task<Result<BlogResponseModel>> GetBlogByIdAsync(int blogId)
 }
 
 #endregion
