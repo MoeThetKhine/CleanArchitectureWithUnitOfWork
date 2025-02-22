@@ -46,7 +46,6 @@ public class BlogRepository : IBlogRepository
 
 	#endregion
 
-
 	#region GetBlogListAsync
 
 	public async Task<Result<BlogListResponseModel>> GetBlogListAsync()
