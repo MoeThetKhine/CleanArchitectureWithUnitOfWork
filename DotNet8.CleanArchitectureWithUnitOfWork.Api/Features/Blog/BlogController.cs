@@ -29,4 +29,11 @@ public class BlogController : BaseController
 
 	#endregion
 
+	[HttpGet("blogId")]
+	public async Task<IActionResult> GetBlogListByIdAsync(int blogId)
+	{
+		var result = await _unitOfWork.BlogRepository.GetBlogByIdAsync(blogId);
+		return Content(result);
+	}
+
 }
